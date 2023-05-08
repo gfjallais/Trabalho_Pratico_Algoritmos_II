@@ -18,6 +18,14 @@ Para utilizar o algoritmo de compressão, basta executar o script `TP_ALG2.py` c
 python3 TP_ALG2.py -c input.txt output.z78
 ```
 
+ou
+
+```
+./TP_ALG2.py -c input.txt output.z78
+```
+
+Caso você tenha executado chmod +x TP_ALG2.py
+
 O arquivo comprimido será gerado com o nome `output.z78`.
 
 Para descomprimir o arquivo, execute o script `python3` com a flag `-x` e informe o caminho do arquivo comprimido:
@@ -25,6 +33,14 @@ Para descomprimir o arquivo, execute o script `python3` com a flag `-x` e inform
 ```
 python3 TP_ALG2.py -x input.z78 output.txt
 ```
+
+ou
+
+```
+./TP_ALG2.py -x input.z78 output.txt
+```
+
+Caso você tenha executado chmod +x TP_ALG2.py
 
 O arquivo descomprimido será gerado com o nome `output.txt`.
 
